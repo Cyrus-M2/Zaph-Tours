@@ -44,7 +44,7 @@ const Contact = () => {
         <MdOutlineMailLock style={{ marginRight: 8 }} /> info@zaphtours.co.ke
       </Box>
       <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-        <FaPhone style={{ marginRight: 8 }} /> +254 700 123456
+        <FaPhone style={{ marginRight: 8 }} /> +254 704 683152
       </Box>
       <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
         <FaLocationDot style={{ marginRight: 8 }} /> Nairobi, Kenya
@@ -70,14 +70,14 @@ const Contact = () => {
   </Grid>
 
   <Grid item xs={12} sx={{ display: 'flex' }} >
-    <Paper sx={{ width: '100%', p: 0 }}>
-    <Box sx={{ height: '100%', width: '100%' }}>
+    <Paper sx={{ p: 0 }}>
+    <Box sx={{ height: '100%' }}>
       <iframe
         title="Zaph Tours Location"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.123456789!2d36.821946!3d-1.292066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d123456789%3A0xabcdef123456789!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1680000000000!5m2!1sen!2ske"
         width="100%"
         height="100%"
-        style={{ border: 0, minHeight: '300px', width: '818px' }}
+        style={{ border: 0, minHeight: '300px', width: '100%' }}
         loading="lazy"
       />
       </Box>

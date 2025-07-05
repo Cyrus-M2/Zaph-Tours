@@ -9,7 +9,7 @@ import {
   Avatar,
 } from "@mui/material";
 import DestinationCard from "../Components/DestinationCard";
-import heroVideo from "../assets/hero-v.mp4";
+// import heroVideo from "https://cdn.pixabay.com/video/2023/09/01/178732-860527368_large.mp4";
 import dest1 from "../assets/HomePage-images/coastal kenya.jpg";
 import dest2 from "../assets/HomePage-images/lake-nakuru.jpg";
 import dest3 from "../assets/HomePage-images/mt-kenya.jpg";
@@ -118,7 +118,7 @@ const Home = () => (
         muted
         loop
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
-        src={heroVideo}
+        src="https://cdn.pixabay.com/video/2023/09/01/178732-860527368_large.mp4"
       />
       <Box
         sx={{

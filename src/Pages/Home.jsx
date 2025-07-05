@@ -117,6 +117,7 @@ const Home = () => (
         autoPlay
         muted
         loop
+        playsInline
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
         src="https://cdn.pixabay.com/video/2023/09/01/178732-860527368_large.mp4"
       />

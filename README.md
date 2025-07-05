@@ -1,10 +1,11 @@
 # Zaph Tours - Safari Adventure Website
 
-![Zaph Tours Screenshot](./screenshot.jpg) *Replace with actual screenshot*
+![Zaph Tours Screenshot](./src/assets/zaph-home-page.png)
 
 A modern front-end website for Zaph Tours, Kenya's premier safari and adventure tour company.
 
 ## 🛠️ Technologies Used
+
 - React.js
 - Material UI (MUI)
 - React Router
@@ -12,6 +13,7 @@ A modern front-end website for Zaph Tours, Kenya's premier safari and adventure 
 - Vite (Build Tool)
 
 ## ✨ Features
+
 - **Home Page**
   - Hero section with stunning visuals
   - Featured destinations showcase
@@ -34,12 +36,15 @@ A modern front-end website for Zaph Tours, Kenya's premier safari and adventure 
   - Social media integration
 
 ## 🚀 Getting Started
+
 1. Clone the repository
+
    ```bash
    git clone https://github.com/Cyrus-M2/zaph-tours.git
 
     Install dependencies
     bash
+   ```
 
 npm install
 
@@ -53,13 +58,13 @@ text
 
 src/
 
-├── components/  # Reusable UI components
+├── components/ # Reusable UI components
 
-├── pages/       # Page components
+├── pages/ # Page components
 
-├── assets/      # Images and media
+├── assets/ # Images and media
 
-└── App.jsx      # Main application
+└── App.jsx # Main application
 
 📝 License
 

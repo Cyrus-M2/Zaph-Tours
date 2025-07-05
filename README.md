@@ -1,14 +1,64 @@
-# React + Vite
+# Zaph Tours - Safari Adventure Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Zaph Tours Screenshot](./screenshot.jpg) *Replace with actual screenshot*
 
-Currently, two official plugins are available:
+A modern front-end website for Zaph Tours, Kenya's premier safari and adventure tour company.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- React.js
+- Material UI (MUI)
+- React Router
+- React Icons
+- Vite (Build Tool)
 
-## Expanding the ESLint configuration
+## ✨ Features
+- **Home Page**
+  - Hero section with stunning visuals
+  - Featured destinations showcase
+  - Customer testimonials
+  - Newsletter signup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Destinations Page**
+  - Interactive destination cards
+  - Pricing information
+  - Detailed descriptions
 
-# Zaph-Tours
+- **Trip Types Page**
+  - 10+ specialized tour packages
+  - Image galleries
+  - Package details and pricing
+
+- **Contact Page**
+  - Functional contact form
+  - Interactive map
+  - Social media integration
+
+## 🚀 Getting Started
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Cyrus-M2/zaph-tours.git
+
+    Install dependencies
+    bash
+
+npm install
+
+Run development server
+bash
+
+    npm run dev
+
+📂 Project Structure
+text
+
+src/
+├── components/  # Reusable UI components
+├── pages/       # Page components
+├── assets/      # Images and media
+└── App.jsx      # Main application
+
+📝 License
+
+This project is licensed under the MIT License.
+
+Happy Coding! 🦒🐘🦁

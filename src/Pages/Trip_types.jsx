@@ -1,16 +1,24 @@
-import React from 'react';
-import { Container, Grid, Card, CardMedia, CardContent, Typography, Box } from '@mui/material';
+import React from "react";
+import {
+  Container,
+  Grid,
+  Card,
+  CardMedia,
+  CardContent,
+  Typography,
+  Box,
+} from "@mui/material";
 
-import ecoImg from '../assets/TripType-images/eco-tours.jpg';
-import honeymoonImg from '../assets/TripType-images/honeymoon.jpg';
-import familyImg from '../assets/TripType-images/family.jpg';
-import adventureImg from '../assets/TripType-images/adventure.jpg';
-import culturalImg from '../assets/TripType-images/cultural-tours.jpg';
-import wildlifeImg from '../assets/TripType-images/wildlife-safaris.jpg';
-import luxuryImg from '../assets/TripType-images/luxury-vacation.jpg';
-import beachImg from '../assets/TripType-images/beach-holidays.jpg';
-import wellnessImg from '../assets/TripType-images/wellness-retreats.jpg';
-import culinaryImg from '../assets/TripType-images/culinary-tours.jpg';
+import ecoImg from "../assets/TripType-images/eco-tours.jpg";
+import honeymoonImg from "../assets/TripType-images/honeymoon.jpg";
+import familyImg from "../assets/TripType-images/family.jpg";
+import adventureImg from "../assets/TripType-images/adventure.jpg";
+import culturalImg from "../assets/TripType-images/cultural-tours.jpg";
+import wildlifeImg from "../assets/TripType-images/wildlife-safaris.jpg";
+import luxuryImg from "../assets/TripType-images/luxury-vacation.jpg";
+import beachImg from "../assets/TripType-images/beach-holidays.jpg";
+import wellnessImg from "../assets/TripType-images/wellness-retreats.jpg";
+import culinaryImg from "../assets/TripType-images/culinary-tours.jpg";
 
 const tripTypes = [
   {
@@ -77,21 +85,34 @@ const tripTypes = [
 
 const Trip_types = () => (
   <Container sx={{ py: 5 }}>
-    <Typography variant="h3" align='center' gutterBottom sx={{ fontWeight: 'bold', color: '#003366'}}>Trip Types</Typography>
+    <Typography
+      variant="h3"
+      align="center"
+      gutterBottom
+      sx={{ fontWeight: "bold", color: "#003366" }}
+    >
+      Trip Types
+    </Typography>
     <Grid container spacing={3} justifyContent="center">
       {tripTypes.map((trip, idx) => (
         <Grid item xs={12} sm={6} md={6} key={idx}>
-          <Card sx={{ width: '100%', display: 'flex', flexDirection: 'column' }} >
+          <Card
+            sx={{ width: "100%", display: "flex", flexDirection: "column" }}
+          >
             <CardMedia
               component="img"
               image={trip.images[0]}
               alt={trip.title}
-              sx={{ height: 200, objectFit: 'cover' }}
+              sx={{ height: 200, objectFit: "cover" }}
             />
-            <CardContent sx={{ flexGrow: 1 }} >
+            <CardContent sx={{ flexGrow: 1 }}>
               <Typography variant="h5">{trip.title}</Typography>
-              <Typography variant="body2" sx={{ my: 2 }}>{trip.description}</Typography>
-              <Typography variant="subtitle1" color="primary">{trip.price}</Typography>
+              <Typography variant="body2" sx={{ my: 2 }}>
+                {trip.description}
+              </Typography>
+              <Typography variant="subtitle1" color="primary">
+                {trip.price}
+              </Typography>
             </CardContent>
           </Card>
         </Grid>

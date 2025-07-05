@@ -52,9 +52,13 @@ bash
 text
 
 src/
+
 ├── components/  # Reusable UI components
+
 ├── pages/       # Page components
+
 ├── assets/      # Images and media
+
 └── App.jsx      # Main application
 
 📝 License
